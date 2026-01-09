@@ -15,11 +15,11 @@ body {
     padding: 0 4rem 0 4rem;
     display: flex;
     justify-content: space-between;
-    height: 1.5rem;
+    height: 2rem;
 }
 
 #topNavLinks {
-    font-size: x-small;
+    font-size: small;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -27,7 +27,7 @@ body {
 
 #nikeLogo {
     width: 6rem;
-    height: 2rem;
+    height: 3rem;
 }
 
 .navbar {
@@ -37,14 +37,14 @@ body {
     z-index: 100;
     display: flex;
     justify-content: space-between;
-    height: 2rem;
-    padding: 0 2rem;
+    height: 3rem;
+    padding: 0 3rem;
 }
 
 .navbarLink {
     padding-left: 1rem;
     font-weight: 600;
-    font-size: small;
+    font-size: medium;
 }
 
 #navbarMenu {
@@ -53,8 +53,8 @@ body {
 }
 
 #navbarSearch {
-    font-size: smaller;
-    width: 8rem;
+    font-size: small;
+    width: 10rem;
     padding: 5px;
     display: flex;
     align-items: center;
@@ -64,7 +64,7 @@ body {
 }
 
 #navbarRightMenu {
-    width: 12rem;
+    width: 14rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -72,64 +72,63 @@ body {
 
 #newExpand {
     display: none;
-    top: 2rem;
+    top: 3rem;
     left: 0;
     z-index: 500;
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    padding: 0 12rem 0 10rem;
+}
+
+
+#menExpand {
+    top: 3rem;
+    left: 0;
+    z-index: 500;
+    display: none;
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    padding: 0 8rem 0 6rem;
+}
+
+#womenExpand {
+    top: 3rem;
+    left: 0;
+    z-index: 500;
+    display: none;
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    padding: 0 8rem 0 6rem;
+}
+
+#kidsExpand {
+    top: 3rem;
+    left: 0;
+    z-index: 500;
+    display: none;
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    padding: 0 8rem 0 6rem;
+}
+
+#saleExpand {
+    top: 3rem;
+    left: 0;
+    z-index: 500;
+    display: none;
     box-sizing: border-box;
     width: 100%;
     position: absolute;
     background-color: white;
     padding: 0 10rem 0 8rem;
-}
-
-
-#menExpand {
-    top: 2rem;
-    left: 0;
-    z-index: 500;
-    display: none;
-    box-sizing: border-box;
-    width: 100%;
-    position: absolute;
-    background-color: white;
-    padding: 0 6rem 0 4rem;
-}
-
-#womenExpand {
-    top: 2rem;
-    left: 0;
-    z-index: 500;
-    display: none;
-    box-sizing: border-box;
-    z-index: 500;
-    width: 100%;
-    position: absolute;
-    background-color: white;
-    padding: 0 6rem 0 4rem;
-}
-
-#kidsExpand {
-    top: 2rem;
-    left: 0;
-    z-index: 500;
-    display: none;
-    box-sizing: border-box;
-    width: 100%;
-    position: absolute;
-    background-color: white;
-    padding: 0 6rem 0 4rem;
-}
-
-#saleExpand {
-    top: 2rem;
-    left: 0;
-    z-index: 500;
-    display: none;
-    box-sizing: border-box;
-    width: 100%;
-    position: absolute;
-    background-color: white;
-    padding: 0 6rem 0 4rem;
 }
 
 #homeLanding {
@@ -141,7 +140,7 @@ body {
     color: white;
     position: absolute;
     text-align: center;
-    top: 16rem;
+    top: 22rem;
 }
 
 .homeLandingBtn {
@@ -164,41 +163,41 @@ body {
 }
 
 .imgSetLeft {
-    top: 18rem;
-    left: 2rem;
-    font-size: small;
+    top: 20rem;
+    left: 4rem;
+    font-size:larger;
 }
 
 .imgSetRight {
-    top: 18rem;
-    left: 35rem;
-    font-size: small;
+    top: 20rem;
+    left: 46rem;
+    font-size: larger;
 }
 
 .featureImg {
     width: 50%;
-    height: 24rem;
+    height: 28rem;
 }
 
 #featureDiv {
     padding-top: 2rem;
     padding-bottom: 2rem;
-    font-size: medium;
+    font-size: large;
     font-weight: 600;
 }
 
 #newYearItems {
     display: flex;
     justify-content: space-between;
-    padding:  0 4rem;
-    font-size: small;
+    padding:  2rem 4rem;
+    font-size: medium;
     font-weight: 500;
     box-sizing: border-box;
 }
 
 .newYearItemImg {
-    height: 20rem;
-    width: 18rem;
+    height: 28rem;
+    width: 25rem;
 }
 
 #sportItems {
@@ -211,6 +210,12 @@ body {
     margin: 4rem 0 10rem 0;
 }
 
+.sportImg {
+    height: 32rem;
+    width: 25em;
+    padding-bottom: 1rem;
+}
+
 .spotLightText {
     width: 100%;
     text-align: center;
@@ -219,20 +224,15 @@ body {
 
 .spotLightHeading {
     font-family: 'Anton';
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 900;
     margin: 2rem 0 0 0;
 }
 
 .spotLightSubHeading {
-    font-size: small;
+    font-size: medium;
 }
 
-.sportImg {
-    height: 22rem;
-    width: 18em;
-    padding-bottom: 1rem;
-}
 
 .spotLightItemText {
     margin: 0;
@@ -240,24 +240,38 @@ body {
 
 .spotLightRow1 {
     display: flex;
-    padding: 0 12rem 2rem 12rem;
+    padding: 0 15rem 2rem 15rem;
     justify-content: space-between;
-    font-size: x-small;
+    font-size: small;
     text-align: center;
     font-weight: 800;
 }
 
 .spotLightItemImg {
-    height: 4rem;
-    width: 4rem;
+    height: 5rem;
+    width: 5rem;
 }
 
 .footerBand {
     display: flex;
     margin: 2rem 2rem;
     justify-content: space-between;
-    font-size: x-small;
+    font-size: small;
     color: gray;
+}
+
+.footerBandBot {
+    display: flex;
+    padding: 5rem 20rem 5rem 5rem;
+    justify-content: space-between;
+    font-size: small;
+    color: gray;
+}
+
+.indiaDiv{
+    position: relative;
+    left : 12rem;
+    top: 0.5rem;
 }
 
 .footerHeading {
@@ -268,8 +282,8 @@ body {
 .footerRibbon {
     display: flex;
     justify-content: space-between;
-    padding: 0 20rem 0 4rem;
-    font-size: x-small;
+    padding: 0 30rem 0 5rem;
+    font-size: small;
     font-weight: 600;
     color: gray;
     padding-bottom: 4rem;
