@@ -281,6 +281,11 @@ body {
     font-weight: 600;
 }
 
+.link:hover{
+    color : black;
+    cursor: pointer;
+}
+
 .footerRibbon {
     display: flex;
     justify-content: space-between;
