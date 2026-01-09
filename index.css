@@ -257,7 +257,8 @@ body {
     margin: 2rem 2rem;
     justify-content: space-between;
     font-size: small;
-    color: gray;
+    font-weight: 700;
+    color: rgb(106, 106, 106);
 }
 
 .footerBandBot {
@@ -265,7 +266,8 @@ body {
     padding: 5rem 20rem 5rem 5rem;
     justify-content: space-between;
     font-size: small;
-    color: gray;
+    font-weight: 700;
+    color: rgb(106, 106, 106);
 }
 
 .indiaDiv{
@@ -285,6 +287,6 @@ body {
     padding: 0 30rem 0 5rem;
     font-size: small;
     font-weight: 600;
-    color: gray;
+    color: rgb(67, 67, 67);
     padding-bottom: 4rem;
 }
