@@ -1,59 +1,60 @@
-body{
-    font-family : "Google Sans";
+body {
+    font-family: "Google Sans";
     margin: 0;
     width: 100%;
 }
 
-.para{
+.para {
     padding-top: 0;
     margin: 0;
 }
 
-#topNav{
+#topNav {
     margin: 0;
     background-color: #f5f5f5;
-    padding : 0 30px 0 30px;
-    display : flex;
+    padding: 0 4rem 0 4rem;
+    display: flex;
     justify-content: space-between;
-    height: 30px;
+    height: 1.5rem;
 }
 
-#topNavLinks{
-    font-size: 10px;
+#topNavLinks {
+    font-size: x-small;
     font-weight: 500;
-    display:flex;
+    display: flex;
     align-items: center;
 }
-#nikeLogo{
-    width: 100px;
-    height: 50px;
+
+#nikeLogo {
+    width: 6rem;
+    height: 2rem;
 }
 
-.navbar{
+.navbar {
     position: sticky;
     background-color: white;
-    top:0px;
+    top: 0px;
     z-index: 100;
     display: flex;
     justify-content: space-between;
-    height: 50px;
-    padding : 0 20px;
+    height: 2rem;
+    padding: 0 2rem;
 }
 
-.navbarLink{
-    padding-left: 10px;
+.navbarLink {
+    padding-left: 1rem;
     font-weight: 600;
-    font-size: 13px;
+    font-size: small;
 }
 
-#navbarMenu{
+#navbarMenu {
     display: flex;
     align-items: center;
 }
 
-#navbarSearch{
-    font-size: 12px;
-    width: 130px;
+#navbarSearch {
+    font-size: smaller;
+    width: 8rem;
     padding: 5px;
     display: flex;
     align-items: center;
@@ -62,194 +63,214 @@ body{
     border-radius: 20px;
 }
 
-#navbarRightMenu{
-    width: 200px;
+#navbarRightMenu {
+    width: 12rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-#newExpand{
+
+#newExpand {
+    display: none;
+    top: 2rem;
+    left: 0;
+    z-index: 500;
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    padding: 0 10rem 0 8rem;
+}
+
+
+#menExpand {
+    top: 2rem;
+    left: 0;
+    z-index: 500;
+    display: none;
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    padding: 0 6rem 0 4rem;
+}
+
+#womenExpand {
+    top: 2rem;
+    left: 0;
+    z-index: 500;
     display: none;
     box-sizing: border-box;
     z-index: 500;
     width: 100%;
     position: absolute;
     background-color: white;
-    padding: 0 150px 0 100px;
+    padding: 0 6rem 0 4rem;
 }
 
-
-#menExpand{
+#kidsExpand {
+    top: 2rem;
+    left: 0;
+    z-index: 500;
     display: none;
     box-sizing: border-box;
-    z-index: 500;
     width: 100%;
     position: absolute;
     background-color: white;
-    padding: 0 100px 0 100px;
+    padding: 0 6rem 0 4rem;
 }
-#womenExpand{
+
+#saleExpand {
+    top: 2rem;
+    left: 0;
+    z-index: 500;
     display: none;
     box-sizing: border-box;
-    z-index: 500;
     width: 100%;
     position: absolute;
     background-color: white;
-    padding: 0 100px 0 100px;
+    padding: 0 6rem 0 4rem;
 }
 
-#kidsExpand{
-    display: none;
-    box-sizing: border-box;
-    z-index: 500;
-    width: 100%;
-    position: absolute;
-    background-color: white;
-    padding: 0 100px 0 100px;
-}
-
-#saleExpand{
-    display: none;
-    box-sizing: border-box;
-    z-index: 500;
-    width: 100%;
-    position: absolute;
-    background-color: white;
-    padding: 0 150px 0 100px;
-}
-
-#homeLanding{
+#homeLanding {
     position: relative;
 }
-.homeLandingTextDiv{
+
+.homeLandingTextDiv {
     width: 100%;
     color: white;
-    position : absolute;
+    position: absolute;
     text-align: center;
-    top : 270px;
+    top: 16rem;
 }
-.homeLandingBtn{
+
+.homeLandingBtn {
     border-radius: 20px;
     border: 0;
     padding: 3px 10px;
     margin-top: 10px;
 }
 
-.imgSet{
+.imgSet {
     display: flex;
-    position : relative;
+    position: relative;
 }
-.imgSetText{
+
+.imgSetText {
     color: white;
     width: 100%;
-    justify-content:space-evenly;
-    position : absolute;
+    justify-content: space-evenly;
+    position: absolute;
 }
 
-.imgSetLeft{
-    top: 280px;
-    left: 30px;
-    font-size: 15px;
-}
-.imgSetRight{
-    top: 280px;
-    left: 550px;
-    font-size: 15px;
+.imgSetLeft {
+    top: 18rem;
+    left: 2rem;
+    font-size: small;
 }
 
-.featureImg{
+.imgSetRight {
+    top: 18rem;
+    left: 35rem;
+    font-size: small;
+}
+
+.featureImg {
     width: 50%;
-    height: 400px;
+    height: 24rem;
 }
 
-#featureDiv{
-    padding-top: 30px;
-    font-size: 25px;
+#featureDiv {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: medium;
     font-weight: 600;
 }
 
-#newYearItems{
+#newYearItems {
     display: flex;
     justify-content: space-between;
-    padding: 0 60px;
-    font-size: 13px;
+    padding:  0 4rem;
+    font-size: small;
     font-weight: 500;
+    box-sizing: border-box;
 }
 
-.newYearItemImg{
-    height: 350px;
-    width: 300px;
+.newYearItemImg {
+    height: 20rem;
+    width: 18rem;
 }
 
-#sportItems{
-    display:flex;
-    padding : 0 80px;
+#sportItems {
+    display: flex;
+    padding: 0 4rem;
     justify-content: space-between;
 }
 
-.spotLightDiv{
-    margin : 20px 0 150px 0;
+.spotLightDiv {
+    margin: 4rem 0 10rem 0;
 }
 
-.spotLightText{
+.spotLightText {
     width: 100%;
     text-align: center;
-    padding: 30px 0;
+    padding: 2rem 0;
 }
-.spotLightHeading{
+
+.spotLightHeading {
     font-family: 'Anton';
     font-size: 60px;
     font-weight: 900;
-    margin: 20px 0 0 0;
+    margin: 2rem 0 0 0;
 }
 
-.spotLightSubHeading{
-    font-size: 13px;
+.spotLightSubHeading {
+    font-size: small;
 }
 
-.sportImg{
-    height: 400px;
-    width: 290px;
-    padding-bottom: 20px;
+.sportImg {
+    height: 22rem;
+    width: 18em;
+    padding-bottom: 1rem;
 }
 
-.spotLightItemText{
+.spotLightItemText {
     margin: 0;
 }
 
-.spotLightRow1{
+.spotLightRow1 {
     display: flex;
-    padding : 0 200px 20px 200px;
+    padding: 0 12rem 2rem 12rem;
     justify-content: space-between;
-    font-size: 10px;
+    font-size: x-small;
     text-align: center;
     font-weight: 800;
 }
 
-.spotLightItemImg{
-    height: 70px;
-    width: 70px;
+.spotLightItemImg {
+    height: 4rem;
+    width: 4rem;
 }
 
-.footerBand{
+.footerBand {
     display: flex;
-    margin: 20px 40px;
+    margin: 2rem 2rem;
     justify-content: space-between;
-    font-size: 10px;
-    color : gray;
+    font-size: x-small;
+    color: gray;
 }
 
-.footerHeading{
-    color : black;
+.footerHeading {
+    color: black;
     font-weight: 600;
 }
 
-.footerRibbon{
+.footerRibbon {
     display: flex;
     justify-content: space-between;
-    padding: 0 300px 0 40px;
-    font-size: 10px;
+    padding: 0 20rem 0 4rem;
+    font-size: x-small;
     font-weight: 600;
-    color:gray;
-    padding-bottom: 40px;
+    color: gray;
+    padding-bottom: 4rem;
 }
